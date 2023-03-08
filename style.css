@@ -1,0 +1,167 @@
+body {
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+}
+/* CSS for header */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* CSS for left title */
+  .left-title {
+    font-size: 24px;
+    margin: 0;
+    color: green;
+  }
+  
+  /* CSS for right titles */
+  .right-titles {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .right-title {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+
+  
+  .box-left{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 235px;
+    height: 280px;
+  }
+  
+
+  .box-right {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .box-left label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  
+  .box-left input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 50px;
+  }
+ 
+  
+  button.btn {
+    padding: 10px 89px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button.btn:hover {
+    background-color: lightgreen;
+  }
+  
+  
+  
+  .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    max-width: 90%;
+  }
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+
+
+/* Bouton */
+.btn{
+    padding: 10px 60px;
+    background: rgb(107, 107, 221);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 30px;
+    opacity: 0.8;
+    
+    
+}
+
+#cart-body{
+    background-color: lightgrey;
+    background-image: none;
+}
+#bookings-body{
+    background-color: lightgrey;
+    background-image: none;
+}
+
+a:visited {
+    color: black;
+  }
+a {
+    text-decoration: none;
+  }
+  
